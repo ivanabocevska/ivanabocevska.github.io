@@ -169,6 +169,22 @@ body {
     font-size: $type-size-6;
   }
 
+  .awards-compact {
+    p,
+    li {
+      font-size: $type-size-6;
+    }
+
+    p {
+      margin-bottom: 0.4em;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 0.9em;
+    }
+  }
+
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
