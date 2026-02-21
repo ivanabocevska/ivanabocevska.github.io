@@ -8,9 +8,6 @@
 
 .sidebar {
   @include clearfix();
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
   //   position: relative;
@@ -40,7 +37,6 @@
   > * {
     margin-top: 0;
     margin-bottom: 1em;
-    padding-top: 0;
   }
 
   h2,

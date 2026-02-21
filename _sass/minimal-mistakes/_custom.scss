@@ -1,0 +1,14 @@
+.sidebar-wrapper {
+  @include breakpoint($large) {
+    float: left;
+    width: 300px;
+    margin-right: 2em;
+  }
+}
+
+.archive-wrapper {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - 300px - 2em);
+  }
+}
