@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -21,7 +21,7 @@ title                    : "Ivana Bocevska"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ivana Bocevska"
-description              : "An amazing website."
+description              : #"An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -123,10 +123,10 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ivana.bocevska@tuwien.ac.at"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin-square"
       url: "https://www.linkedin.com/in/ivana-bocevska/"
     - label: "GoogleScholar"
-      icon: "fab fa-fw fa-google-scholar"
+      icon: "fab fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=DAQnhaMAAAAJ&hl=de"
     - label: "Orcid"
       icon: "fab fa-fw fa-orcid"
@@ -167,7 +167,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-  since: "2013"
+  since: #"2013"
 
 
 # Reading Files
