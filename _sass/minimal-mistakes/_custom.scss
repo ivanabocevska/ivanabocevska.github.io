@@ -1,14 +1,21 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 4em;
+  grid-template-columns: 25% 75%;
+  gap: 2em;
   padding-top: 2em;
+  box-sizing: content-box;
 }
 
 .sidebar-grid {
   font-size: 1.1em;
 }
 
-.main-content-grid {
-  width: 100%;
+.main-content-grid,
+.archive,
+.page,
+.page__content {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
 }
