@@ -18,7 +18,11 @@
   animation-delay: 0.3s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: calc(#{$x-large} - 6rem);
+  }
+
+  @include breakpoint($large) {
+    width: calc(100% - 12rem);
   }
 
   ol {

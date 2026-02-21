@@ -183,6 +183,14 @@
   }
 }
 
+.author__urls li[itemprop="homeLocation"] {
+  font-size: $type-size-6;
+}
+
+.author__urls li[itemprop="homeLocation"] .p-locality {
+  font-size: inherit;
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
@@ -263,10 +271,6 @@
 
   li {
     white-space: normal;
-    font-size: $type-size-6;
-  }
-
-  .p-locality {
     font-size: $type-size-6;
   }
 
