@@ -10,10 +10,11 @@
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 2em;
+  padding-top: 2em;
 }
 
 .sidebar-grid {
-  /* styles for the sidebar */
+  font-size: 1.1em;
 }
 
 .main-content-grid {
