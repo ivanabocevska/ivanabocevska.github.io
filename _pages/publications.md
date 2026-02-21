@@ -13,6 +13,14 @@ author_profile: true
 [paper](https://dl.acm.org/doi/10.1145/3763120)
 
 
+## Master Thesis
+
+**2025**
+
+- Extending game-theoretic security of blockchain protocols with compositional reasoning and conditional actions, Ivana Bocevska, Vienna University of Technology  
+[thesis](https://doi.org/10.34726/hss.2025.128542)
+
+
 ## Invited & Conference Talks
 
 **2025**
