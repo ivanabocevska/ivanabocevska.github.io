@@ -6,9 +6,16 @@
   }
 }
 
-.archive-wrapper {
-  @include breakpoint($large) {
-    float: right;
-    width: calc(100% - 300px - 2em);
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2em;
+}
+
+.sidebar-grid {
+  /* styles for the sidebar */
+}
+
+.main-content-grid {
+  /* styles for the main content */
 }
