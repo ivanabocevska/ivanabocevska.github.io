@@ -115,11 +115,11 @@ analytics:
 author:
   name             : "Ivana Bocevska"
   avatar           : "/assets/images/photo_ivana.jpg"
-  bio              : "University Assistant /<br> PhD student in Automated Reasoning"
+  bio              : "University Assistant /<br> PhD student in <br> Automated Reasoning"
   location         : #"Vienna University of Technology (TU Wien)"
   email            :
   links:
-    - label: "Vienna University of Technology (TU Wien)"
+    - label: "Vienna University of Technology <br> (TU Wien)"
       icon: "fas fa-fw fa-map-marker-alt"
       url: "https://www.tuwien.at/"
     - label: "Email"

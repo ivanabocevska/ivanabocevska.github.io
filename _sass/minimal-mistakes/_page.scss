@@ -51,7 +51,7 @@ body {
 
   .page__inner-wrap {
     float: inline-start;
-    margin-top: 1em;
+    margin-top: 0;
     margin-inline: 0;
     width: 100%;
     clear: both;
@@ -167,22 +167,6 @@ body {
 
   .small {
     font-size: $type-size-6;
-  }
-
-  .awards-compact {
-    p,
-    li {
-      font-size: $type-size-6;
-    }
-
-    p {
-      margin-bottom: 0.4em;
-    }
-
-    ul {
-      margin-top: 0;
-      margin-bottom: 0.9em;
-    }
   }
 
   /* blockquote citations */
