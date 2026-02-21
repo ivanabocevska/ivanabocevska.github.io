@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                    : "minimal-mistakes-jekyll"
-remote_theme               : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -115,18 +115,18 @@ analytics:
 author:
   name             : "Ivana Bocevska"
   avatar           : "/assets/images/photo_ivana.jpg"
-  bio              : "University Assistant / PhD student in Automated Reasoning"
-  location         : "Vienna University of Technology (TU Wien)"
+  bio              : "University Assistant /<br> PhD student in Automated Reasoning"
+  location         : "Vienna University of Technology <br> (TU Wien)"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ivana.bocevska@tuwien.ac.at"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/ivana-bocevska/"
     - label: "GoogleScholar"
-      icon: "fab fa-fw fa-graduation-cap"
+      icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=DAQnhaMAAAAJ&hl=de"
     - label: "Orcid"
       icon: "fab fa-fw fa-orcid"

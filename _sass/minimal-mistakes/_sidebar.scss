@@ -18,26 +18,20 @@
 
   @include breakpoint($large) {
     float: inline-start;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
-
-    &:hover {
-      opacity: 1;
-    }
+    width: calc(#{$right-sidebar-width-narrow} + 1.5em);
+    opacity: 1;
 
     &.sticky {
-      overflow-y: auto;
+      overflow: visible;
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      max-height: none;
     }
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width} + 1em);
   }
 
   > * {
@@ -129,12 +123,15 @@
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
-    height: auto;
+    width: 110px;
+    height: 110px;
   }
 
   img {
+    width: 100%;
+    height: 100%;
     max-width: 110px;
+    object-fit: cover;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -172,7 +169,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: 0.9em;
 }
 
 .author__bio {
@@ -190,7 +187,7 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
-  cursor: pointer;
+  cursor: default;
 
   li:last-child {
     a {
@@ -209,62 +206,28 @@
   }
 
   button {
-    position: relative;
-    margin-bottom: 0;
-
-    &:before {
-      @supports (pointer-events: none) {
-        content: '';
-        position: fixed;
-        top: 0;
-        inset-inline-start: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-      }
-    }
-
-    &.open {
-      &:before {
-        pointer-events: auto;
-      }
-    }
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    display: none;
   }
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
-  inset-inline-end: 0;
-  margin-top: 15px;
-  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: $background-color;
-  box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
   cursor: default;
 
   &.is--visible {
     display: block;
   }
 
-  @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
   &::before {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -11px;
@@ -275,13 +238,10 @@
     border-color: $border-color transparent;
     z-index: 0;
 
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   &:after {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -10px;
@@ -292,9 +252,6 @@
     border-color: $background-color transparent;
     z-index: 1;
 
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   ul {
@@ -303,7 +260,7 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
   }
 
   a {
@@ -312,7 +269,7 @@
     padding-block: 2px;
     padding-inline-end: 5px;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
     text-decoration: none;
 
     &:hover {
