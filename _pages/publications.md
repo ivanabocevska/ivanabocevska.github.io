@@ -7,6 +7,10 @@ author_profile: true
 
 ## Conference Papers
 
+**2026**
+
+- Lagrangian-Based Duality for Quantified SMT Algorithms, Ivana Bocevska, Takeshi Tsukada, Hiroshi Unno, Oded Padon, Sharon Shoham, International Conference on Computed Aided Verification, **CAV’26**  
+
 **2025**
 
 - Divide and Conquer: A Compositional Approach to Game-Theoretic Security, Ivana Bocevska, Anja Petković Komel, Laura Kovács, Sophie Rain, Michael Rawson, ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications, **OOPSLA’25**  
